@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a50593.srcolling">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BbsActivity"
+            android:theme="@style/AppTheme"
+            android:label=" "
+            android:exported="true"
+            ></activity>
+        <activity
+            android:name=".Bbs3Activity"
+            android:theme="@style/AppTheme"
+            android:label=" "
+            android:exported="true"
+            ></activity>
+        <activity
+            android:name=".Bbs2Activity"
+            android:theme="@style/AppTheme"
+            android:label=" "
+            android:exported="true"
+            ></activity>
+
+        <activity android:name=".discover"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label=" ">
+
+
+        </activity>
+
+        <activity android:name=".MygameActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label=" ">
+            </activity>
+        <activity android:name=".ZhuyeActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label=" ">
+        </activity>
+        <activity android:name=".XinxiActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label=" ">
+        </activity>
+        <activity android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label=" ">
+        </activity>
+
+        <activity android:name=".search"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/game_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:background="@color/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar3"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#13B9C7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的游戏"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textColor="#FAFAFA"/>
+
+        </android.support.v7.widget.Toolbar>
+        <ImageView
+            android:id="@+id/t3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:onClick="wdyx_ss"
+            android:src="@drawable/ic_search_black_48dp1" />
+        <ImageView
+            android:id="@+id/t1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:onClick="onClick_Event3"
+            android:src="@drawable/touxiang"
+            android:layout_marginLeft="4dp"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="364dp"
+        android:fadingEdge="vertical"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_weight="1.05">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#14b9c8"
+            app:tabTextColor="#b2ebf2"
+            app:tabSelectedTextColor="#fafafa"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            />
+    </LinearLayout>
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="#fafafa"
+        app:itemTextColor="@color/textWhite"
+        app:menu="@menu/main_button_4"
+
+        />
+
+</LinearLayout>

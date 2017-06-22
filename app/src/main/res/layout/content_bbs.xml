@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a50593.srcolling.BbsActivity"
+    tools:showIn="@layout/activity_bbs">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="2"
+            android:rowCount="8">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_1"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin"
+                android:onClick="lt_lt2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="发现好游戏"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_2"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin"
+                android:onClick="lt_lt2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="IOS游戏"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_3"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin"
+                android:onClick="lt_lt2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="益智"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_4"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin"
+                android:onClick="lt_lt2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="日常"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_5"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin"
+                android:onClick="lt_lt2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="提问"
+                    android:textColor="#000000" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_6"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin"
+                android:onClick="lt_lt2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="日系"
+                    android:textColor="#000000" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_7"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin"
+                android:onClick="lt_lt2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="新游戏"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_8"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin"
+                android:onClick="lt_lt2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="VR"
+                    android:textColor="#000000" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_9"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="音乐"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_10"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="@dimen/text_margin"
+                    android:text="建议"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="8dp"
+                    android:text="主题数：1" />
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

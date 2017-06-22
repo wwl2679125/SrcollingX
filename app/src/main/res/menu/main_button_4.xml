@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a50593.srcolling.ScrollingActivity">
+
+
+    <item
+        android:id="@+id/wodeyouxi"
+        android:icon="@drawable/ic_games_black_24dp"
+        android:title="我的游戏" />
+    <item
+        android:id="@+id/tuijian"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="游戏推荐" />
+    <item
+        android:id="@+id/paihangbang"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="排行榜"
+        />
+    <item
+        android:id="@+id/faxian"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="发现" />
+
+
+
+
+    <item
+        android:id="@+id/luntan"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="论坛" />
+</menu>
